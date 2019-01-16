@@ -5,7 +5,7 @@ spring:
     name: loveshopping-product
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/loveshopping_product
+    url: jdbc:mysql://localhost:3306/loveshopping_product?characterEncoding=utf8
     username: root
     password: 123456
 mybatis-plus:
